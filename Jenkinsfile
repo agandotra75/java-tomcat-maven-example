@@ -5,7 +5,7 @@ pipeline{
 		stage  'initialization' {
 		    steps {
 		      echo "path = ${path}"
-		      echo "M2_HOME" = ${M2_HOME}"
+		      echo "M2_HOME = ${M2_HOME}"
 		    }
 		}    
 		    
