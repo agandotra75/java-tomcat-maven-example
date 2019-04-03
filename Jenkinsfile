@@ -12,7 +12,14 @@ stage  ('initialization') {
 		echo "Hello World"
             }        
 		}      
-	}	
+      stage  ('Deploy') {
+	    steps {
+		echo "Delpoy and Artifact"
+            }        
+		}      
+
+    
+    }	
 
   }
 	
